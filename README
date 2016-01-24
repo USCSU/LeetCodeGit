@@ -1,3 +1,25 @@
+Partial codes of LeetCode. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 关于表达式计算的问题有三种思路：
 
 1. brute force 利用栈，采用巧妙思路计算 BasicCaculator.java I II 都是关于这道题的解法。这种解法短时间很难想出来，
