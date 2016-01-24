@@ -1,0 +1,8 @@
+关于表达式计算的问题有三种思路：
+
+1. brute force 利用栈，采用巧妙思路计算 BasicCaculator.java I II 都是关于这道题的解法。这种解法短时间很难想出来，
+因为没有任何理论基础，只能凭借coding能力。
+2. 转化为逆波兰表达式； 计算逆波兰表达式很简单，但是转化逆波兰需要注意细节
+理论基础就是逆波兰表达式 ExpressionToRPN.java 和 EvaluateRPN就是这样的情况
+3. 转化为二叉树，利用树的定义，计算; ExpressionToBinaryTree.java
+利用了二叉树就可以利用一系列的性质去进行计算。
